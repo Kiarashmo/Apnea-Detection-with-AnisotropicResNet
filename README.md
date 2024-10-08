@@ -30,7 +30,7 @@ The AnisotropicResNet model is a modified version of the ResNet-18 architecture,
 
 ### Model Diagram:
 
-![Model Diagram](./diagram.png)
+![Model Diagram](./diagram.jpg)
 
 
 ## Results
