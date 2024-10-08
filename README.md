@@ -36,7 +36,10 @@ The AnisotropicResNet model is a modified version of the ResNet-18 architecture,
 ## Results
 The model was trained and evaluated on real tracheal sound data with various patients. The primary evaluation metrics include **Precision**, **Recall**, and **F1 Score**, which measure the accuracy of predicting apnea episodes. The model performance was analyzed both quantitatively and qualitatively, showing that it is capable of identifying apnea regions with a high degree of accuracy.
 
-### Quantitative Results:
+### Explanation of True Positive (TP):
+A **True Positive (TP)** refers to a situation where the predicted apnea region has an Intersection over Union (IOU) greater than 70% with the actual ground truth apnea region. This threshold ensures that the predicted region significantly overlaps with the true apnea region, making it a valid and accurate prediction.
+
+### Results:
 | Model | Precision | Recall | F1 Score | Error |
 |-------|-----------|--------|----------|-------|
 | Model 10 | 1.0 | 0.8 | 0.89 | 6.5 |
