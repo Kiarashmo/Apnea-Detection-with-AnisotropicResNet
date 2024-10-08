@@ -5,6 +5,10 @@ This project focuses on detecting sleep apnea episodes from tracheal sound recor
 
 ## Model Architecture
 
+### Model Diagram:
+
+![Model Diagram](./diagram.jpg)
+
 ### AnisotropicResNet
 The AnisotropicResNet model is a modified version of the ResNet-18 architecture, specifically tailored for the task of apnea detection. The model combines multiple audio features to form a 3-channel input, enabling the network to simultaneously process temporal and frequency information from the audio signals.
 
@@ -27,10 +31,6 @@ The AnisotropicResNet model is a modified version of the ResNet-18 architecture,
 
 5. **Output**:
    - The final output layer generates predictions for apnea episodes based on the given time windows, leveraging the deep features learned by the network.
-
-### Model Diagram:
-
-![Model Diagram](./diagram.jpg)
 
 
 ## Results
